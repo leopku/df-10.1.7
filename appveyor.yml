@@ -6,7 +6,7 @@ init:
 environment:
   BOOST_ROOT: C:\Libraries\boost_1_83_0
   MYSQL_ROOT_DIR: C:\mysql-8.1.0-winx64
-  OPENSSL_ROOT_DIR: C:\OpenSSL-v30-Win64
+  OPENSSL_ROOT_DIR: C:\OpenSSL-v32-Win64
 install:
 - ps: >-
     Write-Host "Installing MySQL Server 8.1" -ForegroundColor Cyan
